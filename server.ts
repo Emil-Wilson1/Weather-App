@@ -1,6 +1,6 @@
 import express from "express";
 import mongooseConnection from "./src/connection/mongo";
-import weatherCity from "./src/routes/weatherCity";
+import weatherCity from "./src/routes/weatherRoutes";
 const app = express();
 
 app.use(express.json());
